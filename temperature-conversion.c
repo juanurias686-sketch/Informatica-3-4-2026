@@ -3,17 +3,15 @@
 int main(void)
 {
 
-int F;
-int C;
+float farenheit;
+float celcius;
 
-printf("Farenheit: ");
- scanf("%d", &F);
+farenheit = 100;
 
+celcius = (farenheit-32)/1.8;
+printf("Enter Farenheit: ");
+scanf("%f", &farenheit);
 
+printf("%.2f F = %.2f C" , farenheit, celcius);
 
- int celcius = F-32/1.8;
-
- printf("celcius = %d \n" , celcius);
-
- printf()
 }
