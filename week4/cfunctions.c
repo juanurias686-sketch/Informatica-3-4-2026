@@ -6,23 +6,24 @@ void f_to_c(void);
 
 int main(void){
 
-
-
-
-    int user_response
-    printf("Temperature Converter\n");
+ int user_response;
+    printf("Temperature Converter \n");
     printf("Select an option:\n");
     printf("1. Celciut to fahrenheit\n");
     printf("2. Fahrenheit to celcius\n");
-    scanf("%d" , &user_response);
+    scanf("%d",&user_response);
 
 
     if(user_response==1){
-        c_to_f():
-    }elseif(user_respinse == ){
-        f_to_c();
+        c_to_f();}
 
-    }else{printf("you retard\n");
+    elseif(user_response == 2 ){
+
+        f_to_c();}
+
+
+    else{printf("you retard\n");
+
 //call
 c_to_f();
 f_to_c();
@@ -55,3 +56,5 @@ celcius = (farenheit-32)/1.8;
 printf("%.2f F = %.2f C" , farenheit, celcius);
 
 }
+
+
