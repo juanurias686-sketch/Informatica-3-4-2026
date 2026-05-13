@@ -17,7 +17,7 @@ int main(void){
     if(user_response==1){
         c_to_f();}
 
-    elseif(user_response == 2 ){
+    else if(user_response == 2 ){
 
         f_to_c();}
 
@@ -28,7 +28,7 @@ int main(void){
 c_to_f();
 f_to_c();
 }
-
+}
 //2. deff
 void c_to_f(void){
 float celcius;
@@ -55,6 +55,6 @@ scanf("%f", &farenheit);
 celcius = (farenheit-32)/1.8;
 printf("%.2f F = %.2f C" , farenheit, celcius);
 
+
+
 }
-
-
